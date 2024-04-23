@@ -1,0 +1,11 @@
+.home-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 70px 100px;
+}
+
+body {
+    background: rgb(224, 218, 218);
+}

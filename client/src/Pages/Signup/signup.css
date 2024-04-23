@@ -1,0 +1,38 @@
+.signupform {
+  background-color: rgb(238, 237, 237);
+  border: 2px solid var(--error);
+  box-shadow: 0px 8px 15px rgba(50, 50, 93, 0.2),
+    0px 3px 6px rgba(0, 0, 0, 0.05);
+
+  width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+.signupform h3 {
+    margin-bottom: 70px;
+}
+
+.signupform input {
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+}
+
+.signupform label {
+    font-weight: bolder;
+    color: var(--error);
+}
+
+.signupform button {
+    background-color: var(--primary) ;
+    color: antiquewhite;
+    padding: 6px;
+    border-radius: 5px;
+}
