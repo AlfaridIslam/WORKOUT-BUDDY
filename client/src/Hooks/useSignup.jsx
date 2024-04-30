@@ -25,7 +25,7 @@ export const useSignup = () => {
       localStorage.setItem("user", JSON.stringify(data));
 
       // update user context
-      dispatch({ type: "LOGIN", payload: data });
+      // dispatch({ type: "LOGIN", payload: data });
     }
   };
   return { signup, error };
